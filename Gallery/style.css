@@ -1,0 +1,12 @@
+.container {  
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.container > div {
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    background-color: yellowgreen;
+}
